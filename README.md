@@ -16,4 +16,9 @@ $ docker run --rm -it -v $PWD:/workdir yamat/texlive_biber_make
 $ make
 ```
 
+## Source
+[github ya-mat](https://github.com/ya-mat/docker_texlive_biber_make)
+
+## 日本語環境向けの注意
+最新のtexliveパッケージだとbiblatexで日本語文献を扱うとerrorになるようです．その場合は2019のtagをおすすめします．
 

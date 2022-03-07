@@ -2,7 +2,7 @@
 # Released under the MIT license
 # https://opensource.org/licenses/MIT
 
-FROM paperist/texlive-ja:alpine
+FROM paperist/alpine-texlive-ja:2019
  
 RUN apk add --no-cache make && \
     apk add --no-cache --virtual .fetch-deps xz tar wget && \
